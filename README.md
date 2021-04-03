@@ -52,12 +52,21 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 copy the lines on functions.php to the end of functions.php of your active theme, or to all you themes. 
 
+PROS:
+-You log in normally.
+-Survives plugin updates.
+-Not much/server configurations
+
+CONS:
+-The whitelisted accounts are hardcoded. Adding a new whitelisted account means a file edit too
+-If the theme itself is updated, or changed to another theme, always check if your changes are intact.
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 copy the lines on functions.php to the end of functions.php of your active theme, or to all you themes. 
 
-Note: Not tested the effect of updating a theme. May need retouch.
+Note: Not tested the effect of updating a theme. You may need to retouch functions.php
 
 
 <!-- CONTACT -->
